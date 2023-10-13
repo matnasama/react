@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/matnasama/react/issues"
   },
-  "homepage": "https://github.com/matnasama/react#readme"
+  "homepage": "https://github.com/matnasama/react#readme",
+  "dependencies": {
+    "vite": "^4.4.11"
+  }
 }
