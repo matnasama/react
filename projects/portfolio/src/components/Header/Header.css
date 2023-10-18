@@ -1,0 +1,41 @@
+.navbar {
+    height: 5rem;
+    width: 90vw;
+    max-width: 75rem;
+    margin: 0 auto;
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+}
+
+.logo {
+    object-fit: contain;
+    width: 6rem;
+    border-radius: 100%;
+}
+
+.menuListItem {
+    margin: 1rem;
+    cursor: pointer;
+    font-size: 1.3em;
+
+}
+
+.menuBtn {
+    border: none;
+    display: flex;
+    align-items: center;
+    padding: 0 1rem; 
+    justify-content: space-between;
+    gap: 5px;
+}
+
+.menuBtn img {
+    height: 50px;
+    width: 50px;
+
+}
