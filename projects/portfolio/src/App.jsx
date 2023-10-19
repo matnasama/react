@@ -7,6 +7,7 @@ export default function App() {
     <>
       <div className="background">
         <Header />
+
         <Main />
       </div>
     </>

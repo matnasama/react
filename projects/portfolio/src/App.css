@@ -1,3 +1,21 @@
 .background {
-    background-image: url(./assets/tree2.png);
+    width: 100vw;
+    height: 100vh;
+    background-image: 
+    radial-gradient(#889e7ee7, 85% ,#2d2d2e),
+    url(./assets/tree2.png);
+    background-size: contain;
+    background-position: center center;
+    background-color: #ffefd5;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+}
+
+
+@media (max-width: 360px) {
+    .background {
+        display: grid;
+        place-content: start;  
+    }   
 }
