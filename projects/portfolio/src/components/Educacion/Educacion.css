@@ -1,0 +1,6 @@
+.educacion {
+    width: 90vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}

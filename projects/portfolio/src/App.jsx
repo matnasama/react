@@ -1,5 +1,7 @@
 import { Header } from './components/Header/Header.jsx'
 import { Main } from './components/Main/Main.jsx'
+import { Experiencia } from './components/Experiencia/Experiencia.jsx'
+import { Educacion } from './components/Educacion/Educacion.jsx'
 import './App.css'
 
 export default function App() {
@@ -7,9 +9,10 @@ export default function App() {
     <>
       <div className="background">
         <Header />
-
         <Main />
       </div>
+      <Experiencia />
+      <Educacion />
     </>
   )
 }
