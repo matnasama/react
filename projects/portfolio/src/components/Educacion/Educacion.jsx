@@ -17,6 +17,15 @@ export function Educacion () {
                             <td >
                                 <p>CARGO</p>
                             </td>
+                            <td>
+                                <p>INSTITUCION</p>    
+                            </td>
+                            <td>
+                                <p>INICIO</p>
+                            </td>
+                            <td >
+                                <p>CARGO</p>
+                            </td>
                         </tr>
                     </tbody>
                 </table>

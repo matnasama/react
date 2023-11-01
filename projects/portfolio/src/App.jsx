@@ -2,6 +2,7 @@ import { Header } from './components/Header/Header.jsx'
 import { Main } from './components/Main/Main.jsx'
 import { Experiencia } from './components/Experiencia/Experiencia.jsx'
 import { Educacion } from './components/Educacion/Educacion.jsx'
+import Chatbot from './components/ChatBot/ChatBot.jsx'
 import './App.css'
 
 export default function App() {
@@ -11,8 +12,9 @@ export default function App() {
         <Header />
         <Main />
       </div>
-      <Experiencia />
       <Educacion />
+      <Experiencia />
+      <Chatbot />
     </>
   )
 }
